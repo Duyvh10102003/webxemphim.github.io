@@ -28,6 +28,7 @@
                     <div class="section-title">
                         <h5>Ý Kiến Người Dùng</h5>
                     </div>
+                    @* Display data *@
                     @foreach (var item in ViewData["BinhLuan"] as List<BinhLuan>)
                     {
                         var thoiGian = ViewBag.BinhLuanThoiGian[item.BinhLuanId];

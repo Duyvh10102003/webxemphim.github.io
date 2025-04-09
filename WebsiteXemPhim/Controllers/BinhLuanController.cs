@@ -6,6 +6,7 @@ using WebsiteXemPhim.Models;
 
 namespace WebsiteXemPhim.Controllers
 {
+    //Manage comments
     public class BinhLuanController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -89,6 +90,7 @@ namespace WebsiteXemPhim.Controllers
 
             return RedirectToAction("XemPhimLe", "XemPhim", new { id = phimLeid});
         }
+        //Add new comment
         public async Task<IActionResult> AddBinhLuanPL2(int phimLeid, string text)
         {
             var user = await _userManager.GetUserAsync(User);
