@@ -11,7 +11,7 @@ using WebsiteXemPhim.Models;
 using WebsiteXemPhim.Repositories;
 
 namespace WebsiteXemPhim.Areas.Admin.Controllers
-{
+{ //phan quyen admin
     [Area("Admin")]
     [Authorize(Roles = "Admin")]
     public class QuocGiasController : Controller
