@@ -8,6 +8,8 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace WebsiteXemPhim.Controllers
 {
+    //controller Home
+    //cmt
     public class HomeController : Controller
     {
         private readonly ApplicationDbContext _context;
