@@ -278,6 +278,7 @@ namespace WebsiteXemPhim.Areas.Admin.Controllers
             return PartialView("SearchPhims",paginatedPhimBoes);
         }
         // phan trang
+        //11
         public async Task<IActionResult> PagingNoLibrary(int pageNumber)
         {
             int pageSize = 10;
