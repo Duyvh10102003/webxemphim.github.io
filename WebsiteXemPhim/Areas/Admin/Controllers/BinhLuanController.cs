@@ -12,6 +12,7 @@ namespace WebsiteXemPhim.Areas.Admin.Controllers
     [Authorize(Roles = "Admin")]
     public class BinhLuanController : Controller
     {
+        //coment gi do
         private readonly ApplicationDbContext _context;
         private readonly UserManager<AppUser> _userManager;
         public BinhLuanController(ApplicationDbContext context, UserManager<AppUser> userManager)
